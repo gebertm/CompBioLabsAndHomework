@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Subsetting Data - Adding header line and last 10 lines of data from columns 2 -4
+# Subsetting Data - Adding header line and last 10 lines of data from columns 2 - 4
 
-# Subset
+# Parse, Subset, and Append
 
 cut -f 2-4 -d , PredPreyData.csv > PredPreyData_cut.csv
 
