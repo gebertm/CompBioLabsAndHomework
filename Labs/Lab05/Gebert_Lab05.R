@@ -76,6 +76,7 @@ FirstYear
 
 # 3b. 'Total' emissions between 200 and 300 million metric tons of carbon
 
+# Setting parameters
 LowEnd <- 200
 HighEnd <- 300
 
@@ -120,6 +121,7 @@ lines(x = time, y = p, col = 'blue', type = 'l')
 
 PredPreyDataFrame <- data.frame(TimeStep = time, PreyAbundance = n, PredatorAbundance = p)
 
+# writing to .csv
 setwd("~/Desktop/EBIO5420/CompBioLabsAndHomework/Labs/Lab05/")
 write.csv(x = PredPreyDataFrame, file = 'PredPreyResults.csv')   # writing data frame to .csv
       
