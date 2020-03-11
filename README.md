@@ -1,4 +1,4 @@
-## _Computational Biology EBIO5420 Spring 2020_ ##
+## _EBIO5420 Computational Biology Spring 2020_ ##
 #### Dept. of Ecology and Evolutionary Biology ####
 #### University of Colorado, Boulder ####
 
