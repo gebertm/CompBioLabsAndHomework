@@ -50,12 +50,12 @@ return( GrowModel )
 
 The function allows for **user input**: 
 
-_note: the user must specify the **initial** population size (for example, 2500 individuals)  
+_note: the user must specify the **initial** population size (for example, 2500 individuals)_  
 
-r = intrinsic growth rate of the population
-K = environmental carrying capacity for the population
-g = total number of generations
-i = initial population size
+* r = intrinsic growth rate of the population
+* K = environmental carrying capacity for the population
+* g = total number of generations
+* i = initial population size
 
 
 ### **Output:**
