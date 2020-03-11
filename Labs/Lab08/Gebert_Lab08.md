@@ -20,12 +20,12 @@ and uses the following equation:
 
 where:
 
-t = abundance of population at time t
-GrowthModel[t - 1] abundance of the population in the previous step
-r = intrinsic growth rate of the population
-K = environmental carrying capacity for the population
-g = total number of generations
-i = initial population size
+* t = abundance of population at time t
+* GrowthModel[t - 1] abundance of the population in the previous step
+* r = intrinsic growth rate of the population
+* K = environmental carrying capacity for the population
+* g = total number of generations
+* i = initial population size
 
 
 ## **Logistical Growth Model Function**
