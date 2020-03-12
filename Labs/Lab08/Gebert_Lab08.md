@@ -79,4 +79,4 @@ The function will also output:
 
 **Example graphical output** - based on user input:
 
-![Graph Example](~/Desktop/EBIO5420/CompBioLabsAndHomework/Rplot_GrwthFunction_AbundVsTime_EBIO5420_03112020.png)
+![Graph Example](Rplot_GrwthFunction_AbundVsTime_EBIO5420_03112020.png)
