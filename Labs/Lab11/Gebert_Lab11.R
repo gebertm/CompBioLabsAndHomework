@@ -34,7 +34,16 @@ nrow(mean_summary)
 FamilyDensity <- GlobalWoodDensity_cleaned %>% group_by(Family)
 FamDensity_Mean <- FamilyDensity %>% summarise(dens2 = mean(Wood.density..g.cm.3...oven.dry.mass.fresh.volume))
 
-#sorting mean dataframe by density, highest density to lowest density
+# Sorting mean dataframe by density, highest density to lowest density
 FamDensityMeanSorted <- arrange(FamDensity_Mean, desc(dens2))
+
+# Confirming correct count of FamilyIDs (191)
+nrow(FamDensityMeanSorted)
+
+# Printing top 8 highest and lowest density families in data frame
+HighestFamDensity <- FamDensityMeanSorted %>% top_n(8) # top 8 highest density
+LowestFamDensity <- FamDensityMeanSorted %>% top_n(-8) # top 8 lowest density    
+
+
 
 
