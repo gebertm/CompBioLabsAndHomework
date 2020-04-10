@@ -30,10 +30,10 @@ and compared to the relative abundance of genus _Mycobacterium_ across the sampl
 if different species (especially pathogens) were more abundant in different parts of the US in Europe.
 
 The study looked to determine the presence and relative abundance of genus _Mycobacterium_ in the biofilm samples, and to determine specifically which species 
-of Mycobacteria were present in the sample. Using the metadata provided by the participants, researchers looked for biogeographic patterns and predictors of presence
+of mycobacteria were present in the sample. Using the metadata provided by the participants, researchers looked for biogeographic patterns and predictors of presence
 and relative abundance of both innocuous and pathogenic mycobacteria. 
 
-## **Type of Data:**
+## **Type of Data**
 
 **Format:** The data is stored as two large .csv files - one containing the metadata for each sample, the other containing the SampleID, a column with all the taxonomy present
 in the dataset, numbers corresponding to the number of sequencing reads for each of the taxonomic reads in each of the samples (i.e., a tally of different bacterial taxa
@@ -55,7 +55,7 @@ both in built systems like plumbing, and out in the environment (for example, in
 can be addressed by looking at how relative abundance of different bacterial phylum are impacted by differences in pH. 
 	One of the challenges involved with this kind of analysis is that we cannot say for certain that pH of the environment is the direct cause of shifts 
 in relative abundance. It is very challenging, in a system as complicated as a biofilm, with many moving parts, so isolate one environmental factor and attempt to correlate it with
-an outcome like relative abudnance. Although we can not for certain say that pH is definitively and solely causing the differences in relative abundance in biofilms of certain bacterial 
+an outcome like relative abundance. Although we can not for certain say that pH is definitively and solely causing the differences in relative abundance in biofilms of certain bacterial 
 phylum, we can begin to look at what could potentially be driving these ecological differences and begin to better understand the roles that environmental factors play in presence of 
 certain bacteria.
 
@@ -63,7 +63,7 @@ The analysis will include a linear regression, since both variables are _continu
 Cyanobacteria. This will allow me to say something about the relationship between relative abundance of a certain bacterial phylum and pH of the environment.
 
 
-#### _References_
+#### _References:_
 
 Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
-mBio 9:e01614-18. [DOI:https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
+mBio 9:e01614-18. [https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
