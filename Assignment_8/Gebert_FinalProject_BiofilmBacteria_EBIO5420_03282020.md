@@ -2,7 +2,7 @@
 
 ## **Introduction** ##
 
-### ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008). ###
+ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008).
 Some bacteria prefer a low pH environment, while others prefer a more neutral, or even highly basic environment. pH also impacts 
 the metabolism of microbial cells, as well as cell physiology. Understanding how environmental conditions, like pH, predict the abundance of a
 certain bacterial phylum is an important step in being able to predict what bacteria live where, especially when considering potential 
@@ -18,18 +18,18 @@ _"does pH impact the relative abundance of certain bacterial phylum in municipal
   
 ## **Summary of the Data**
 
-### The overall goal of the original study was to determine what factors (geographic location, water chemistry, water source, etc) influence the 
+The overall goal of the original study was to determine what factors (geographic location, water chemistry, water source, etc) influence the 
 relative abundance and biogeographic variation in the genus _Mycobacterium_. The study set out to collect biofilms from municipal and well-water fed 
 showerheads across the United States and Europe. Since genus _Mycobacterium_ contains potential pathogens, understanding what contributes to their
 presence and survival in showerhead biofilms is an important first step in better understanding the epidemiology of disease.
 
-### Volunteer participants across the US and Europe contributed a swab from their household showerhead, which was then sent to CU Boulder for bacterial analysis
+Volunteer participants across the US and Europe contributed a swab from their household showerhead, which was then sent to CU Boulder for bacterial analysis
 using high-throughput sequencing technology. Along with the swab, participants also provided geographic location, basic water chemistry using a dipstrip (for example, 
 pH, chlorine, iron concentration) water source, and basic information about their showerheads (material, spray pattern). Metadata was compiled for each participant 
 and compared to the relative abundance of genus _Mycobacterium_ across the sample set, as well as the relative abundance of specific mycobacterial species to determine
 if different species (especially pathogens) were more abundant in different parts of the US in Europe.
 
-### The study looked to determine the presence and relative abundance of genus _Mycobacterium_ in the biofilm samples, and to determine specifically which species 
+The study looked to determine the presence and relative abundance of genus _Mycobacterium_ in the biofilm samples, and to determine specifically which species 
 of Mycobacteria were present in the sample. Using the metadata provided by the participants, researchers looked for biogeographic patterns and predictors of presence
 and relative abundance of both innocuous and pathogenic mycobacteria. 
 
@@ -49,7 +49,7 @@ columns (controls and extraneous unrelated samples) mixed in that will need to b
 
 ## Analysis ##
 
-### The published study looked specifically at one genus of bacteria in the biofilm samples, given its clinical significance. While it is important to better understand sources
+The published study looked specifically at one genus of bacteria in the biofilm samples, given its clinical significance. While it is important to better understand sources
 and routes of pathogenic exposure in our day to day lives, it is equally as important to better understand how pH predicts what other types of bacteria are present,
 both in built systems like plumbing, and out in the environment (for example, in soil). The larger ecological question of _how does pH impact bacterial assembly_ 
 can be addressed by looking at how relative abundance of different bacterial phylum are impacted by differences in pH. 
@@ -66,4 +66,4 @@ Cyanobacteria. This will allow me to say something about the relationship betwee
 #### _References_
 
 Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
-mBio 9:e01614-18. [DOI: https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
+mBio 9:e01614-18. [DOI:https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
