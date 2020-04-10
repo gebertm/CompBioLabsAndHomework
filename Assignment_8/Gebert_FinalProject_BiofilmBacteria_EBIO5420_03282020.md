@@ -64,6 +64,6 @@ Cyanobacteria. This will allow me to say something about the relationship betwee
 
 
 #### _References_
-Ecological Analyses of Mycobacteria in Showerhead Biofilms and Their Relevance to Human Health
-Matthew J. Gebert, Manuel Delgado-Baquerizo, Angela M. Oliverio, Tara M. Webster, Lauren M. Nichols, Jennifer R. Honda, Edward D. Chan, Jennifer Adjemian, Robert R. Dunn, Noah Fierer
-mBio Oct 2018, 9 (5) e01614-18; [DOI: 10.1128/mBio.01614-18] (https://DOI: 10.1128/mBio.01614-18)
+
+Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
+mBio 9:e01614-18. [DOI: https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
