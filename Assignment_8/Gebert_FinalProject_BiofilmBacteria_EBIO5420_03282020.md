@@ -1,8 +1,8 @@
 # The Effect of pH on Different Bacterial Phylum in Showerhead Biofilms
 
-## **Introduction**
+## **Introduction** ##
 
-### ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008). 
+### ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008). ###
 Some bacteria prefer a low pH environment, while others prefer a more neutral, or even highly basic environment. pH also impacts 
 the metabolism of microbial cells, as well as cell physiology. Understanding how environmental conditions, like pH, predict the abundance of a
 certain bacterial phylum is an important step in being able to predict what bacteria live where, especially when considering potential 
@@ -35,20 +35,19 @@ and relative abundance of both innocuous and pathogenic mycobacteria.
 
 ## **Type of Data:**
 
-**Format**: The data is stored as two large .csv files - one containing the metadata for each sample, the other containing the SampleID, a column with all the taxonomy present
+**Format:** The data is stored as two large .csv files - one containing the metadata for each sample, the other containing the SampleID, a column with all the taxonomy present
 in the dataset, numbers corresponding to the number of sequencing reads for each of the taxonomic reads in each of the samples (i.e., a tally of different bacterial taxa
 in each sample). 
 
-Size of data: Metadata - 151KB / OTU table - 7.6 MB
+**Size of data:** Metadata - 151KB / OTU table - 7.6 MB
 Line Count: Metadata - 622 lines, 22 columns / 5,764 rows (TaxonomicIDs), 609 columns (sampleIDs)
 
-
-Challenges: Both tables are very large, so looking through each cell for inconsistencies will not be feasible. Code will have to be written to take into account that there
+**Challenges:** Both tables are very large, so looking through each cell for inconsistencies will not be feasible. Code will have to be written to take into account that there
 is some variation in data recording (for example pH of less than 6 is recorded as <6, and that some data is missing altogether - blanks and zeros). Another challenge will 
 be parsing the enormous files to look at a very small subset of the data, and subsequently merging the two parsed data frames into one working document. There are also some 
 columns (controls and extraneous unrelated samples) mixed in that will need to be removed. 
 
-## Analysis
+## Analysis ##
 
 ### The published study looked specifically at one genus of bacteria in the biofilm samples, given its clinical significance. While it is important to better understand sources
 and routes of pathogenic exposure in our day to day lives, it is equally as important to better understand how pH predicts what other types of bacteria are present,
@@ -67,4 +66,4 @@ Cyanobacteria. This will allow me to say something about the relationship betwee
 #### _References_
 Ecological Analyses of Mycobacteria in Showerhead Biofilms and Their Relevance to Human Health
 Matthew J. Gebert, Manuel Delgado-Baquerizo, Angela M. Oliverio, Tara M. Webster, Lauren M. Nichols, Jennifer R. Honda, Edward D. Chan, Jennifer Adjemian, Robert R. Dunn, Noah Fierer
-mBio Oct 2018, 9 (5) e01614-18; DOI: 10.1128/mBio.01614-18 [https://DOI: 10.1128/mBio.01614-18]
+mBio Oct 2018, 9 (5) e01614-18; [DOI: 10.1128/mBio.01614-18] (https://DOI: 10.1128/mBio.01614-18)
