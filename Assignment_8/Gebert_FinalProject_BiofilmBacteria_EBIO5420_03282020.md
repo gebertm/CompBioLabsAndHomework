@@ -40,7 +40,7 @@ in the dataset, numbers corresponding to the number of sequencing reads for each
 in each sample). 
 
 **Size of data:** Metadata - 151KB / OTU table - 7.6 MB
-Line Count: Metadata - 622 lines, 22 columns / 5,764 rows (TaxonomicIDs), 609 columns (sampleIDs)
+Line Count: Metadata - 622 lines, 22 columns / 5,764 rows (Taxonomic IDs), 609 columns (Sample IDs)
 
 **Challenges:** Both tables are very large, so looking through each cell for inconsistencies will not be feasible. Code will have to be written to take into account that there
 is some variation in data recording (for example pH of less than 6 is recorded as <6, and that some data is missing altogether - blanks and zeros). Another challenge will 
@@ -64,6 +64,5 @@ Cyanobacteria. This will allow me to say something about the relationship betwee
 
 
 #### _References:_
-
 Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
-mBio 9:e01614-18. [https://doi.org/10.1128/mBio.01614-18] (https://doi.org/10.1128/mBio.01614-18)
+mBio 9:e01614-18. [https://doi.org/10.1128/mBio.01614-18](https://doi.org/10.1128/mBio.01614-18)
