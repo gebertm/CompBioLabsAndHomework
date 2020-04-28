@@ -5,7 +5,7 @@
 ## The main question to be addressed using these data is: *"how does the pH of water in premise plumbing
 systems effect the relative abundance of different biofilm-residing bacterial taxa at the phylum level."*
 
-## **Ecological Background:** _pH dependencies, biofilms, and the Showerhead Microbiome Project_
+## **Ecological Background:** _**pH dependencies, biofilms, and the Showerhead Microbiome Project**_
 ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008, 1).
 Some bacteria prefer a low pH environment, while others prefer a more neutral, or even highly basic environment. pH also impacts 
 the metabolism of microbial cells, as well as cell physiology. Understanding how environmental conditions, like pH, predict the abundance of a
@@ -19,7 +19,7 @@ pH effects the bacteria across many different biomes. Understanding how environm
 of disease epidemiology. Predicting the presence of certain bacterial taxa based on environmental traits can help to better predict potential areas of exposure, and
 routes of transmission. 
 
-## *Showerhead Microbiome Project: Background*
+## **_Showerhead Microbiome Project_: Background**
 The overall goal of the original study was to determine what factors (geographic location, water chemistry, water source, etc) influence the 
 relative abundance and biogeographic variation in the genus _Mycobacterium_. The study set out to collect biofilms from municipal and well-water fed 
 showerheads across the United States and Europe. Since genus _Mycobacterium_ contains potential pathogens, understanding what contributes to their
@@ -36,7 +36,7 @@ of mycobacteria were present in the sample. Using the metadata provided by the p
 and relative abundance of both innocuous and pathogenic mycobacteria.
 
 
-## Methods
+## **Methods**
 
 The data for the study was a result of a 2018 publication titled [*'Ecological analyses of Mycobacteria in showerhead biofilms and their relevance to human health'*](https://mbio.asm.org/content/9/5/e01614-18.abstract)
 
@@ -52,7 +52,7 @@ The initial data itself consisted of 2 Excel files - one OTU table (which consis
 of information regarding water chemistry, as well as geographic location, and basic information about the showerhead itself (material, use frequency, etc). Neither file was particularly large (given it was the output
 of the raw sequence data, which was much larger). The metadata file was 151KB, while the OTU table was 7.6 MB. Some of the issues that were initially noted was small inconsistencies in data reporting
 
-## Approach
+## **Approach**
 
 In the original analyses, the focus was primarily on the potential respiratory pathogen, mycobacteria. Relative abundance of genus Mycobacterium was determined by comparing number of reads of mycobacteria to the
 number of total reads per sample (# of mycobacterial reads for sample x / # of total reads for sample x). This allows for one to determine how much of the biofilm swab sample bacterial community was made up
@@ -79,18 +79,19 @@ The result of the code is an abridged table, with all relavent samples present, 
 for two graphs to be made for each of the taxa of interest, as well as statistical tests to be run to determine how each bacterial phylum responded to the pH of water in a premise plumbing system. 
 
 
-## Results and Concluding Statements
+## **Results and Concluding Statements**
 
 Looking at both the graphical representations of the data, as well as the output from the linear regression, it appears as though there is no strong correlation between the pH of the water in the premise plumbing 
 system and the relative abundance of each of the bacterial taxa. This does not necessarily mean that pH is not having an effect on bacterial relative abundance for Bacteroidetes, Cyanobacteria, and Chloroflexi, but 
 rather it means that there is not a strong enough correlation to say anything definitive regarding the response to this environmental parameter. This helps to potentially address, albeit on a surface level, my question
 of how does pH impact the relative abundance of bacteria in biofilms. 
 
+![Figure 1](~/Rplot_BoxPlot_pH_042820.pdf)
 
-Figure 1: Box plot - pH of water source vs. relative abundance (%). 
+**Figure 1:** Box plot - pH of water source vs. relative abundance (%). 
 
 
-Figure 2: Scatter plot - pH of water source vs. relative abundance (%)
+**Figure 2:** Scatter plot - pH of water source vs. relative abundance (%)
 
 This is not surprising for 2 reasons, 1) because it is very difficult to disentangle the effects of multiple environmental parameters on biofilm residing bacterial communities, and 2) pH likely does not impact 
 bacterial taxa in a linear fashion, given that each taxa can have a range of tolerances.
