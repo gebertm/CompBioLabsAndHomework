@@ -2,7 +2,7 @@
 
 # **The Effect of Environmental pH on Different Bacterial Phyla Residing in Showerhead Biofilms** 
 
-## The main question to be addressed using these data is: *how does the pH of water in premise plumbing systems effect the relative abundance of different biofilm-residing bacterial taxa at the phylum level.*
+### The main question to be addressed using these data is: *how does the pH of water in premise plumbing systems effect the relative abundance of different biofilm-residing bacterial taxa at the phylum level.*
 
 ## **Ecological Background:** _**pH dependencies, biofilms, and the Showerhead Microbiome Project**_
 ph of the surrounding environment, be it in the environment or in culture, is an important determinant of where microbes live (Lauber et al, 2008, 1).
@@ -85,7 +85,7 @@ system and the relative abundance of each of the bacterial taxa. This does not n
 rather it means that there is not a strong enough correlation to say anything definitive regarding the response to this environmental parameter. This helps to potentially address, albeit on a surface level, my question
 of how does pH impact the relative abundance of bacteria in biofilms. 
 
-![Figure 1](/Users/mgebert/Desktop/EBIO5420/CompBioLabsAndHomework/IndependentProject_Biofilm_pH/Rplot_BoxPlot_pH_042820.pdf)
+![Figure 1](Rplot_BoxPlot_pH_042820.pdf)
 
 **Figure 1:** Box plot - pH of water source vs. relative abundance (%). 
 
