@@ -31,7 +31,7 @@ pH, chlorine, iron concentration) water source, and basic information about thei
 and compared to the relative abundance of genus _Mycobacterium_ across the sample set, as well as the relative abundance of specific mycobacterial species to determine
 if different species (especially pathogens) were more abundant in different parts of the US in Europe.
 
-The study looked to determine the presence and relative abundance of genus _Mycobacterium_ in the biofilm samples, and to determine specifically which species 
+The original 2018 study looked to determine the presence and relative abundance of genus _Mycobacterium_ in the biofilm samples, and to determine specifically which species 
 of mycobacteria were present in the sample. Using the metadata provided by the participants, researchers looked for biogeographic patterns and predictors of presence
 and relative abundance of both innocuous and pathogenic mycobacteria.
 
@@ -86,7 +86,13 @@ system and the relative abundance of each of the bacterial taxa. This does not n
 rather it means that there is not a strong enough correlation to say anything definitive regarding the response to this environmental parameter. This helps to potentially address, albeit on a surface level, my question
 of how does pH impact the relative abundance of bacteria in biofilms. 
 
-This is not surprising for 2 reasons, 1) because it is very difficult to disentangle the effects of multiple environmental parameters on biofilm residing bacterial communities, and 2) it pH likely does not impact 
+
+Figure 1: Box plot - pH of water source vs. relative abundance (%). 
+
+
+Figure 2: Scatter plot - pH of water source vs. relative abundance (%)
+
+This is not surprising for 2 reasons, 1) because it is very difficult to disentangle the effects of multiple environmental parameters on biofilm residing bacterial communities, and 2) pH likely does not impact 
 bacterial taxa in a linear fashion, given that each taxa can have a range of tolerances.
 
 
