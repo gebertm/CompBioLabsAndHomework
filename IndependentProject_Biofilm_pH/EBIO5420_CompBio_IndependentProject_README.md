@@ -85,10 +85,11 @@ system and the relative abundance of each of the bacterial taxa. This does not n
 rather it means that there is not a strong enough correlation to say anything definitive regarding the response to this environmental parameter. This helps to potentially address, albeit on a surface level, my question
 of how does pH impact the relative abundance of bacteria in biofilms. 
 
-![Figure 1](Rplot_BoxPlot_pH_042820.pdf)
+![Figure 1](Rplot_Boxplot_pH_042820.png)
 
 **Figure 1:** Box plot - pH of water source vs. relative abundance (%). 
 
+![Figure 2](Rplot_Scatter_pH_042820.png)
 
 **Figure 2:** Scatter plot - pH of water source vs. relative abundance (%)
 
