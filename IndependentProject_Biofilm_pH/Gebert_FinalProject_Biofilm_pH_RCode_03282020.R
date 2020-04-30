@@ -112,7 +112,7 @@ DataTable_PhylaRelAbund_pH <- subset(DataTable_PhylaRelAbund_pH, DataTable_Phyla
 
 # Figure 1: Boxplot representing the 3 bacterial phyla and their average relative abundance
 library(cowplot)
-# Boxplots
+# Boxplots - x-axis: pH, y-axis: relative abundance
 pH_Plot_Bacter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = BacterRelativeAbundance )) +
   geom_boxplot(color="black", fill="green", alpha=0.9) + labs(x = "pH of Water Source", y = "Relative Abundance of Bacteroidetes (%)") + 
   theme(axis.text.x = element_text(angle = 70, hjust = 1))
@@ -125,7 +125,7 @@ pH_Plot_Chloro <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = Chlo
 
 # Scatterplots 
 pH_Plot_Bacter_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = BacterRelativeAbundance )) +
-  geom_jitter(shape=21, fill='plum', size=1.5) + labs(x = "pH of Water Source", y = "Relative Abundance of Bacteroidetes (%)") +
+  geom_jitter(shape=21, fill='plum', size=1.5) + labs(title = "Bacteroidetes", x = "pH of Water Source", y = "Relative Abundance (%)") +
   theme(axis.line=element_line(size=1, color='black'),
         text=element_text(family = 'Times', face='bold', size=8),
         panel.grid.major = element_line(color='grey'),
@@ -134,7 +134,7 @@ pH_Plot_Bacter_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, 
         axis.text.x=element_text(color='black', size=8, face='bold', angle = 70, hjust = 1),
         axis.text.y=element_text(color='black', size=8, face='bold'))
 pH_Plot_Cyano_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = CyanoRelativeAbundance )) +
-  geom_jitter(shape=21, fill='red', size=1.5) + labs(x = "pH of Water Source", y = "Relative Abundance of Cyanobacteria (%)") +
+  geom_jitter(shape=21, fill='red', size=1.5) + labs(title = "Cyanobacteria", x = "pH of Water Source", y = "Relative Abundance (%)") +
   theme(axis.line=element_line(size=1, color='black'),
         text=element_text(family = 'Times', face='bold', size=8),
         panel.grid.major = element_line(color='grey'),
@@ -143,7 +143,7 @@ pH_Plot_Cyano_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y
         axis.text.x=element_text(color='black', size=8, face='bold', angle = 70, hjust = 1),
         axis.text.y=element_text(color='black', size=8, face='bold'))
 pH_Plot_Chloro_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = ChloroRelativeAbundance )) +
-  geom_jitter(shape=21, fill='orange', size=1.5) + labs(x = "pH of Water Source", y = "Relative Abundance of Chloroplexi (%)") +
+  geom_jitter(shape=21, fill='orange', size=1.5) + labs(title = "Chloroflexi", x = "pH of Water Source", y = "Relative Abundance (%)") +
   theme(axis.line=element_line(size=1, color='black'),
         text=element_text(family = 'Times', face='bold', size=8),
         panel.grid.major = element_line(color='grey'),
@@ -156,22 +156,43 @@ pH_Plot_Chloro_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, 
 # Using cowplot to create one figure - easier to compare side by side
 plot_grid(pH_Plot_Bacter, pH_Plot_Chloro, pH_Plot_Cyano, nrow = 1, labels = c('A', 'B', 'C'))
 
+# Renaming plots for stacked effect using cowplot
 firstPlot <- pH_Plot_Bacter_scatter
 secondPlot <- pH_Plot_Cyano_scatter
 thirdPlot <- pH_Plot_Chloro_scatter
 
+# Generating 1 figure from 3 plots using cowplot -- stacked effect
 fullPlot <- plot_grid(firstPlot, secondPlot, thirdPlot, labels=c('', ''), ncol=1)
 fullPlot
 
 # Does pH effect relative abundance of Cyanobacteria?
-# Spearman Correlation 
+# Linear Regression + Pearson Correlation  
 model_bact <- lm(DataTable_PhylaRelAbund_pH$BacterRelativeAbundance ~ DataTable_PhylaRelAbund_pH$pH)
 print(summary(model_bact))  
 
-model_bact2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$BacterRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
-         method='spearman',
+model_chloro <- lm(DataTable_PhylaRelAbund_pH$ChloroRelativeAbundance ~ DataTable_PhylaRelAbund_pH$pH)
+print(summary(model_chloro))
+
+model_cyano <- lm(DataTable_PhylaRelAbund_pH$CyanoRelativeAbundance ~ DataTable_PhylaRelAbund_pH$pH)
+print(summary(model_cyano))
+
+
+Model_bact2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$BacterRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
+         method="pearson",
          continuity = FALSE,
          conf.level = 0.95)
-
 model_bact2
+
+model_chloro2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$ChloroRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
+                        method="pearson",
+                        continuity = FALSE,
+                        conf.level = 0.95)
+model_chloro2
+
+model_cyano2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$CyanoRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
+                        method="pearson",
+                        continuity = FALSE,
+                        conf.level = 0.95)
+model_cyano2
+
 
