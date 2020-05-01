@@ -40,7 +40,7 @@ and relative abundance of both innocuous and pathogenic mycobacteria.
 The data for the study was a result of a 2018 publication titled [*'Ecological analyses of Mycobacteria in showerhead biofilms and their relevance to human health'*](https://mbio.asm.org/content/9/5/e01614-18.abstract)
 
 The 16S rRNA data were produced by a high-throughput sequencing effort of 700+ biofilm swabs from premise plumbing biofilm swabs from across the United States and Europe.
-The process consisted of recruiting volunteer participants to collect biofilm from their showerheads, sending it back to the University of Colorado, and subsequently, extracting and
+The process consisted of recruiting volunteer participants to collect biofilm from their showerheads, sending the swab back to the University of Colorado, and subsequently, extracting and
 sequencing the bacterial DNA on the swab. The data was then processed using the USearch pipeline (R. Edgar, 2016, 3) to pick operational taxonomic units (OTUs) and to classify the OTUs using
 a reference database (Greengenes 16S database in this case). 
 The resulting information, after sequencing and data processing, was a table of all the bacterial taxa that were present in the biofilm sample 
