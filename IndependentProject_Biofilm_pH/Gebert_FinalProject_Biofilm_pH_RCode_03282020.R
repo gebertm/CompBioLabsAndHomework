@@ -184,18 +184,17 @@ Model_bact2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$BacterRelativeAbun
          method="pearson",
          continuity = FALSE,
          conf.level = 0.95)
-model_bact2
 
 model_chloro2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$ChloroRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
                         method="pearson",
                         continuity = FALSE,
                         conf.level = 0.95)
-model_chloro2
 
 model_cyano2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$CyanoRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
                         method="pearson",
                         continuity = FALSE,
                         conf.level = 0.95)
+# printing output from pearson corr
+model_bact2
+model_chloro2
 model_cyano2
-
-
