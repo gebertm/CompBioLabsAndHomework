@@ -12,7 +12,7 @@ certain bacterial phylum is an important step in being able to predict what bact
 pathogens. 
 	Municipal water systems are known to harbor many types of bacteria, and pH of these systems varies based on source of water and geographic 
 location (Gebert et al, 2018, 2). Generally, these bacteria live in complex communities within an extracellular matrix composed of "extracellular polymeric substances" (ESP),
-secreted by the bacteria. Given the importance of pH in determining where some microbes can be found, understanding how biofilm bacterial communities
+secreted by the bacteria (Branda et al, 2005, 2). Given the importance of pH in determining where some microbes can be found, understanding how biofilm bacterial communities
 are effected by pH can be an important step in determining what types of bacteria reside in municipal water systems, and potentially help to better understand how
 pH effects the bacteria across many different biomes. Understanding how environmental factors shape bacterial communities can also be an important component 
 of disease epidemiology. Predicting the presence of certain bacterial taxa based on environmental traits can help to better predict potential areas of exposure, and
@@ -102,7 +102,10 @@ bacterial taxa in a linear fashion, given that each taxa can have a range of tol
 1. Lauber, C.L., Strickland, M.S., Bradford, M.A., Fierer, Noah. The influence of soil properties on the structure of bacterial and fungal communities across land-use types. Soil Biology and Biochemistry, 2008. 40(9): p. 2407 - 2415.
 [https://doi.org/10.1016/j.soilbio.2008.05.021](https://doi.org/10.1016/j.soilbio.2008.05.021)
 
-2. Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
+2. Branda, S., Vik, A., Friedman, L., Kolter, R. Biofilms: the matrix revisited. Trends in Microbiology. 2005. 13(1): p. 20 - 26. 
+[https://doi.org/10.1016/j.tim.2004.11.006](https://doi.org/10.1016/j.tim.2004.11.006)
+
+3. Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
 mBio 9:e01614-18. [https://doi.org/10.1128/mBio.01614-18](https://doi.org/10.1128/mBio.01614-18)
 
-3. Edgar, R. UNOISE2: improved error-correction for Illumina 16S and ITS amplicon sequencing. 2016. bioRxiv. [https://doi.org/10.1101/081257](https://doi.org/10.1101/081257)
+4. Edgar, R. UNOISE2: improved error-correction for Illumina 16S and ITS amplicon sequencing. 2016. bioRxiv. [https://doi.org/10.1101/081257](https://doi.org/10.1101/081257)
