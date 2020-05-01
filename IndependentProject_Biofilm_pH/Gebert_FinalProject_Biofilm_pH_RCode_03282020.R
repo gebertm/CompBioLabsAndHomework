@@ -112,7 +112,7 @@ DataTable_PhylaRelAbund_pH <- subset(DataTable_PhylaRelAbund_pH, DataTable_Phyla
 
 # Figure 1: Boxplot representing the 3 bacterial phyla and their average relative abundance
 library(cowplot)
-# Boxplots - x-axis: pH, y-axis: relative abundance
+# Boxplots - x-axis: pH, y-axis: relative abundance, using ggplot2
 pH_Plot_Bacter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = BacterRelativeAbundance )) +
   geom_boxplot(color="black", fill="green", alpha=0.9) + labs(x = "pH of Water Source", y = "Relative Abundance of Bacteroidetes (%)") + 
   theme(axis.text.x = element_text(angle = 70, hjust = 1))
@@ -124,6 +124,8 @@ pH_Plot_Chloro <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = Chlo
   theme(axis.text.x = element_text(angle = 70, hjust = 1))
 
 # Scatterplots 
+# Generating scatterplots using ggplot2 - pH by relative abundance for each taxa
+# Adding color - plum, red, orange
 pH_Plot_Bacter_scatter <- ggplot(data = DataTable_PhylaRelAbund_pH, aes(x = pH, y = BacterRelativeAbundance )) +
   geom_jitter(shape=21, fill='plum', size=1.5) + labs(title = "Bacteroidetes", x = "pH of Water Source", y = "Relative Abundance (%)") +
   theme(axis.line=element_line(size=1, color='black'),
@@ -176,7 +178,8 @@ print(summary(model_chloro))
 model_cyano <- lm(DataTable_PhylaRelAbund_pH$CyanoRelativeAbundance ~ DataTable_PhylaRelAbund_pH$pH)
 print(summary(model_cyano))
 
-
+# Running a second model - using a pearson correlation 
+# Confidence level = 0.95
 Model_bact2 <- cor.test(as.numeric(DataTable_PhylaRelAbund_pH$BacterRelativeAbundance), as.numeric(DataTable_PhylaRelAbund_pH$pH),
          method="pearson",
          continuity = FALSE,
