@@ -41,7 +41,7 @@ The data for the study was a result of a 2018 publication titled [*'Ecological a
 
 The 16S rRNA data were produced by a high-throughput sequencing effort of 700+ biofilm swabs from premise plumbing biofilm swabs from across the United States and Europe.
 The process consisted of recruiting volunteer participants to collect biofilm from their showerheads, sending it back to the University of Colorado, and subsequently, extracting and
-sequencing the bacterial DNA on the swab. The data was then processed using the USearch pipeline (Edgar) to pick operational taxonomic units (OTUs) and to classify the OTUs using
+sequencing the bacterial DNA on the swab. The data was then processed using the USearch pipeline (Edgar, R, 2016, 3) to pick operational taxonomic units (OTUs) and to classify the OTUs using
 a reference database (Greengenes 16S database in this case). 
 The resulting information, after sequencing and data processing, was a table of all the bacterial taxa that were present in the biofilm sample 
 collected on the swab (a proxy for the biofilm that was collecting in the showerhead as a whole, as well as in the premise plumbing). 
@@ -99,11 +99,17 @@ bacterial taxa in a linear fashion, given that each taxa can have a range of tol
 
 
 #### _References:_
-1. Lauber, C.L., Strickland, M.S., Bradford, M.A., Fierer, Noah The influence of soil properties on the structure of bacterial and fungal communities across land-use types. Soil Biology and Biochemistry, 2008. 40(9): p. 2407 - 2415.
+1. Lauber, C.L., Strickland, M.S., Bradford, M.A., Fierer, Noah. The influence of soil properties on the structure of bacterial and fungal communities across land-use types. Soil Biology and Biochemistry, 2008. 40(9): p. 2407 - 2415.
 [https://doi.org/10.1016/j.soilbio.2008.05.021](https://doi.org/10.1016/j.soilbio.2008.05.021)
 
 2. Gebert MJ, Delgado-Baquerizo M, Oliverio AM, Webster TM, Nichols LM, Honda JR, Chan ED, Adjemian J, Dunn RR, Fierer N. 2018. Ecological analyses of mycobacteria in showerhead biofilms and their relevance to human health. 
 mBio 9:e01614-18. [https://doi.org/10.1128/mBio.01614-18](https://doi.org/10.1128/mBio.01614-18)
+
+3. Edgar, R. UNOISE2: improved error-correction for Illumina 16S and ITS amplicon sequencing. 2016. bioRxiv. [https://doi.org/10.1101/081257](https://doi.org/10.1101/081257)
+
+
+
+
 
 
 
